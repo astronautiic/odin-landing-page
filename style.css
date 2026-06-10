@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15%;
+    background: #1F2937;
+    color: white;
+}
+
+    .headerlogo {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .headerlinks {
+        display: flex;
+        gap: 25px;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    .header a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .header a:visited {
+        color: white;
+    }
+
+.intro {
+    display: flex;
+    gap: 60px;
+    background: #1F2937;
+    padding: 150px 15%;
+    color: white;
+}
+    
+    .introtext {
+        flex: 35%;
+    }
+
+    .introtext h1 {
+        margin: 0;
+        font-size: 60px;
+        font-weight: 900;
+    }
+
+    .introtext p {
+        margin: 15px 0;
+        font-size: 18px;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 10px 35px;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        background: #3882F6;
+    }
+
+        .button:visited {
+            color: white;
+        }
+
+    .introimg {
+        flex: 65%;
+        min-height: 100%;
+        background: grey;
+    }
+
+    .info {
+        padding: 60px 17% 80px;
+        text-align: center;
+    }
+
+        .info h2 {
+            margin: 0 0 50px;
+            font-size: 36px;
+        }
+
+        .infoboxes {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .box {
+            width: 175px;
+        }
+
+        .infoimg {
+            width: 175px;
+            height: 175px;
+            border: 4px solid #3882F6;
+            border-radius: 10px;
+        }
+
+        .box p {
+            margin: 0;
+            color: #4B5563;
+        }
+
+.quote {
+    padding: 120px 28%;
+    background: #E5E7EB;
+}
+
+    .quote p {
+        margin: 0;
+    }
+
+    .quotetext {
+        font-size: 36px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 1.3;
+    }
+
+
+    .quotesource {
+        margin: 0;
+        text-align: right;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+.cta {
+    padding: 80px 20%;
+}
+
+    .ctacontainer {
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+        padding: 60px 90px;
+        border-radius: 10px;
+        background: #3882F6;
+        color: white;
+    }
+
+    .ctatext h3 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .ctatext p {
+        margin: 0;
+    }
+
+    .ctabutton {
+        display: block;
+        height: fit-content;
+        padding: 10px 40px;
+        border: 2px solid white;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .ctabutton:visited {
+        color: white;
+    }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background: #1F2937;
+    color: white;
+}
